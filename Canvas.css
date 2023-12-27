@@ -1,0 +1,220 @@
+
+.video
+{ 
+  display : inline-block;
+}
+
+.home
+{
+  display: inline;
+  vertical-align: top;
+}
+.google-s
+{
+  width: 500px;
+  height: 35px;
+  padding: 3px;
+border: none;
+border-radius: 25px;
+margin-left: 500px;
+margin-right: 600px;
+box-shadow: 3px 1px 15px rgba(0,0,0,0.4);
+
+}
+.logo
+{
+  width: 250px;
+  transition: width 2s;
+margin-left: 550px;
+margin-right: 630px;
+}
+.logo:hover
+{
+  width: 350px;
+}
+
+h1
+{
+    transition : box-shadow 0.15s, background-color 0.15;
+}
+
+body
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1:hover
+{
+    background-color : greenyellow;
+    box-shadow : 5px 5px 10px black;
+}
+
+ .lego
+ {
+    transition: width 1s;
+ }   
+.lego:hover
+{
+    width : 350px;
+}
+
+  .search
+  {
+    display: inline-block;
+    border-width: 1px;
+   vertical-align: top;
+    height : 25px;
+    width : 400px;
+    border-radius: 7px;
+  }
+  .cat
+  {
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  body
+  {
+    background-color: rgba(255, 255, 255, 0.902);
+  }
+  .sub
+  {
+    border: none; 
+    background-color: white;
+    color: black;
+  padding : 24px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+    border-radius: 12px;
+    font-weight : bold;
+    transition: padding 1s,background-color 1s,color 1s;
+  }
+  .sub:hover
+  {
+    padding : 30px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+    background-color : red;
+    color: white;
+    width: 130px;
+  }
+   .video-title
+  {
+    font-weight : bold;
+    font-family:Arial;
+    font-size: 18px;
+    text-align: left;
+    width : 300px;
+    margin-bottom: 10px;
+    line-height: 20px;  
+  }
+  .timeline
+  {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Arial;
+    color : grey;
+    margin-bottom: 20px;
+  }
+.creator
+{
+  font-weight: normal;
+    font-size: 12px;
+    font-family: Arial;
+    color : grey;
+    margin-bottom: 20px;
+    transition: font-size 0.5s;
+}
+
+.comment
+{
+  width: 400px;
+  font-weight: normal;
+    font-size: 12px;
+    font-family: Arial;
+    color : grey;
+    margin-bottom: 20px;
+}
+a:hover
+{
+  color : orange;
+}
+form
+{
+  margin-top : 20px;
+}
+
+.Enter
+{
+background-color: white;
+color: rgb(15, 161, 252);
+border-color: rgb(15, 161, 252);
+border-radius: 5px;
+font-weight: normal;
+border-width : 1px;
+margin-top: 35px;
+cursor: pointer;
+padding : 24px;
+padding-bottom: 6px;
+padding-top: 6px;
+transition: background-color 1s, color 1s,box-shadow 0.15s,padding 1s;
+}
+.Enter:hover
+{
+padding: 30px;
+padding-bottom: 10px;
+padding-top: 10px;
+background-color : rgb(15, 161, 252); 
+color: whitesmoke;
+border : none;
+box-shadow : 5px 5px 10px rgba(15,161,252,0.5);
+}
+.Enter:active
+{
+background-color: greenyellow;
+color : black;
+}
+
+.GetStarted
+{
+ background-color : rgb(252, 221, 67);
+ color : black;
+ border : none;
+ border-radius : 0px;
+ font-weight: normal;
+ margin-bottom: 0px;
+ padding: 24px;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ cursor : pointer;
+ transition: background-color 0.5s, width 1s, back-shadow 1s;  
+}
+.GetStarted:hover
+{   
+box-shadow: 5px 5px 10px rgba(255,164,28,0.5);
+padding: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: rgb(255,164,28);
+}
+.GetStarted:active
+{
+box-shadow : 5px 10px 15px rgba(0,0,0,0.4); 
+background-color: greenyellow;
+color : black;
+}
+.Download
+{
+  color : white;
+  background : rgb(2, 154, 2);
+  font-weight : bold;
+  border : none;
+  width : 100px;
+  height : 40px;
+  border-radius: 5px;
+  transition: width 1s,box-shadow 0.5s;
+}
+.Download:hover
+{
+  width : 140px;
+  box-shadow : 0px 5px 8px black; 
+}
